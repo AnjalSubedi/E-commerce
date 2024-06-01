@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: url('images.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header, footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: #333;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-collapse {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        display: block;
+    }
+    nav ul {
+        display: none;
+    }
+}
+
+main {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#ad1, #ad2 {
+    margin: 20px 0;
+}
+
+#ad2 video {
+    width: 100%;
+}
