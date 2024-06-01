@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background: url('images.jpeg') no-repeat center center fixed;
+    /* background: url('images.jpeg') no-repeat center center fixed; */
     background-size: cover;
 }
 
@@ -60,3 +60,150 @@ main {
 #ad2 video {
     width: 100%;
 }
+ .header {
+            display: flex;
+            align-items: center;
+        }
+
+        .header img {
+            margin-right: 10px; /* Adjust spacing between image and heading if needed */
+        }
+
+        .header h1 {
+            margin: 0; /* Remove default margin from heading */
+        }
+        
+        .company-logo
+        {
+            border-radius: 40px;
+            height: 40px;
+        }.update_date{
+            padding: 10px 20px;
+            text-align: center;
+            color: rgb(248, 221, 69);
+        }
+        .sponsor-photo {
+            width: 200px; /* Set the desired width */
+            height: 300px; /* Set the desired height */
+            object-fit: contain; /* Ensure the image covers the container */
+            object-position: center; /* Center the image within the container */
+        }
+        body {
+            background-image: url('assets/img/background-photo.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+         .navbar {
+            background-color: transparent; /* Make the navbar background transparent */
+            border: none; /* Remove any borders */
+            box-shadow: none; /* Remove any shadows */
+        } 
+        .sponsor-photo {
+            width: 100%; /* Ensure the image fills the container's width */
+            height: auto; /* Maintain aspect ratio */
+            object-fit: cover; /* Cover the container */
+            object-position: center; /* Center the image within the container */
+        }
+        
+        /* Ensure proper spacing on larger screens */
+        @media (min-width: 768px) {
+            .sponsor-photo {
+                width: 200px; /* Adjust width for larger screens if necessary */
+                height: 300px; /* Adjust height for larger screens if necessary */
+            }
+        }
+        /* Tag selector */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* ID selector */
+#main-header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Class selector */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Compound selector */
+header .branding {
+    float: left;
+    margin-top: 10px;
+}
+
+/* Pseudo-class selector */
+nav a:hover {
+    background: #575757;
+    color: white;
+}
+
+/* New Class for buttons */
+.btn {
+    display: inline-block;
+    color: white;
+    background: #333;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #575757;
+}
+
+/* Redesigned footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Class for images */
+.img-rounded {
+    border-radius: 15px;
+}
+
+/* Pseudo-element selector */
+p::first-line {
+    font-weight: bold;
+}
+
+/* ID for highlighted section */
+#highlight {
+    background: #ffeb3b;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Class for cards */
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Pseudo-class for links */
+a:visited {
+    color: #757575;
+}
+
+        
